@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:purple;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:violet;
+    padding: 30px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+}
+
+button {
+    background-color:purple;
+    color: #fff;
+    padding: 30px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:chocolate;
+}
+
+#formDataDisplay {
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items:normal;
+    justify-content: normal;
+    height: 100vh;
+    margin: 0;
+}
+
+
+ 
+.item {
+    background-color:violet;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 60px;
+} 
+.full-details {
+    display: none;
+}
+
+.button1 {
+    background-color:purple;
+    color: #fff;
+    padding: 30px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color:chocolate;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.container1 {
+    background-color:violet;
+    padding: 30px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form, table {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+border-radius: 60px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    display: none;
+}
+
+#editForm {
+    margin-top: 20px;
+}
